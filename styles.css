@@ -1,0 +1,214 @@
+/* Reset CSS básico para evitar estilos padrão do navegador */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section#quem-somos {
+    text-align: center;
+    padding: 20px;
+}
+
+div.content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #161616;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+}
+
+span {
+    font-style:initial;
+    color: #444;
+    font-weight: bold;
+}
+
+  
+  /* Estilo para a barra de navegação */
+  nav {
+    background-color: #ce70eb;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+}
+
+section#nossos-produtos {
+    text-align: center;
+}
+
+div.product-card {
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3.product-title {
+    font-size: 20px;
+}
+
+p.product-description {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+h2.product-price, h3.product-price {
+    font-size: 18px;
+    color: #008000;
+}
+
+strong {
+    font-weight: bold;
+}
+
+
+
+  /* Estilo para as seções */
+  section {
+    padding: 50px 0;
+  }
+  
+  section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  section img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  
+  /* Estilo para os membros do time */
+  .team-member {
+    text-align: center;
+  }
+  
+  .team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+
+  /* Estilos para a seção do time */
+#nosso-time {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para a classe "content" (opcional, apenas para exemplo) */
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Estilos para a classe "team-members" */
+.team-members {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espaçamento entre os membros */
+}
+
+/* Estilos para a classe "team-member" */
+.team-member {
+    text-align: center;
+    flex: 1;
+    max-width: 250px; /* Largura máxima para cada membro */
+}
+
+/* Estilos para as imagens dos membros */
+.team-member img {
+    max-width: 200px; /* Novo tamanho das imagens */
+}
+
+
+/* Estilos para o aviso de contato */
+.aviso-contato {
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #000000; /* Cor do texto */
+}
+
+.aviso-contato p {
+    margin: 5px;
+}
+
+  
+  /* Estilo para os cards de produtos */
+  .product-card {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .product-card img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  /* Estilo para o rodapé */
+  footer {
+    background-color: #23ccff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+  }
+
+  /* Estilo para centralizar o texto dos produtos */
+.product-title, .product-description, .product-price {
+    text-align: center;
+  }
+  
